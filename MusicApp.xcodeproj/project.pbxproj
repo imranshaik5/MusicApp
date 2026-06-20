@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A21001 /* MusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21001; };
+		A21002 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21002; };
+		A21003 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21003; };
+		A21004 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21004; };
+		A21005 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21005; };
+		A21006 /* AudioPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21006; };
+		A21007 /* MockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21007; };
+		A21008 /* LibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21008; };
+		A21009 /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21009; };
+		A21010 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21010; };
+		A21011 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21011; };
+		A21012 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21012; };
+		A21013 /* SongListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21013; };
+		A21014 /* AlbumListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21014; };
+		A21015 /* ArtistListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21015; };
+		A21016 /* PlaylistListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21016; };
+		A21017 /* NowPlayingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21017; };
+		A21018 /* NowPlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21018; };
+		A21019 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21019; };
+		A21020 /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21020; };
+		A21021 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21021; };
+		A21022 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21024; };
+		A21023 /* YouTubeAudioLibraryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21025; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B21001 /* MusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicApp.swift; sourceTree = "<group>"; };
+		B21002 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		B21003 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		B21004 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		B21005 /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		B21006 /* AudioPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerService.swift; sourceTree = "<group>"; };
+		B21007 /* MockDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataService.swift; sourceTree = "<group>"; };
+		B21008 /* LibraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewModel.swift; sourceTree = "<group>"; };
+		B21009 /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
+		B21010 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		B21011 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B21012 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		B21013 /* SongListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListView.swift; sourceTree = "<group>"; };
+		B21014 /* AlbumListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListView.swift; sourceTree = "<group>"; };
+		B21015 /* ArtistListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistListView.swift; sourceTree = "<group>"; };
+		B21016 /* PlaylistListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistListView.swift; sourceTree = "<group>"; };
+		B21017 /* NowPlayingBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingBar.swift; sourceTree = "<group>"; };
+		B21018 /* NowPlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingView.swift; sourceTree = "<group>"; };
+		B21019 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		B21020 /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
+		B21021 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		B21022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B21023 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		B21024 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B21025 /* YouTubeAudioLibraryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeAudioLibraryService.swift; sourceTree = "<group>"; };
+		C21001 /* MusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		D21001 = {
+			isa = PBXGroup;
+			children = (
+				D21002 /* App */,
+				D21003 /* Models */,
+				D21004 /* Services */,
+				D21005 /* ViewModels */,
+				D21006 /* Views */,
+				B21022 /* Info.plist */,
+				B21023 /* Resources */,
+				C21001 /* MusicApp.app */,
+			);
+			path = "Sources/MusicApp";
+			sourceTree = "<group>";
+		};
+		D21002 /* App */ = {
+			isa = PBXGroup;
+			children = ( B21001 /* MusicApp.swift */ );
+			path = App;
+			sourceTree = "<group>";
+		};
+		D21003 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B21002 /* Song.swift */,
+				B21003 /* Album.swift */,
+				B21004 /* Artist.swift */,
+				B21005 /* Playlist.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D21004 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B21006 /* AudioPlayerService.swift */,
+				B21007 /* MockDataService.swift */,
+				B21025 /* YouTubeAudioLibraryService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D21005 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B21008 /* LibraryViewModel.swift */,
+				B21009 /* PlayerViewModel.swift */,
+				B21010 /* SearchViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D21006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B21011 /* ContentView.swift */,
+				B21024 /* HomeView.swift */,
+				D21007 /* Library */,
+				D21008 /* Player */,
+				D21009 /* Browse */,
+				D21010 /* Radio */,
+				D21011 /* Search */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D21007 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				B21012 /* LibraryView.swift */,
+				B21013 /* SongListView.swift */,
+				B21014 /* AlbumListView.swift */,
+				B21015 /* ArtistListView.swift */,
+				B21016 /* PlaylistListView.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		D21008 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				B21017 /* NowPlayingBar.swift */,
+				B21018 /* NowPlayingView.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		D21009 /* Browse */ = {
+			isa = PBXGroup;
+			children = ( B21019 /* BrowseView.swift */ );
+			path = Browse;
+			sourceTree = "<group>";
+		};
+		D21010 /* Radio */ = {
+			isa = PBXGroup;
+			children = ( B21020 /* RadioView.swift */ );
+			path = Radio;
+			sourceTree = "<group>";
+		};
+		D21011 /* Search */ = {
+			isa = PBXGroup;
+			children = ( B21021 /* SearchView.swift */ );
+			path = Search;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E21001 /* MusicApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F21003 /* Build config list for MusicApp */;
+			buildPhases = (
+				E21002 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicApp;
+			productName = MusicApp;
+			productReference = C21001 /* MusicApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		G21001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = F21001 /* Build config list for project */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = ( en, Base, );
+			mainGroup = D21001;
+			productRefGroup = D21001;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = ( E21001 /* MusicApp */, );
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E21002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21001 /* MusicApp.swift in Sources */,
+				A21002 /* Song.swift in Sources */,
+				A21003 /* Album.swift in Sources */,
+				A21004 /* Artist.swift in Sources */,
+				A21005 /* Playlist.swift in Sources */,
+				A21006 /* AudioPlayerService.swift in Sources */,
+				A21007 /* MockDataService.swift in Sources */,
+				A21008 /* LibraryViewModel.swift in Sources */,
+				A21009 /* PlayerViewModel.swift in Sources */,
+				A21010 /* SearchViewModel.swift in Sources */,
+				A21011 /* ContentView.swift in Sources */,
+				A21012 /* LibraryView.swift in Sources */,
+				A21013 /* SongListView.swift in Sources */,
+				A21014 /* AlbumListView.swift in Sources */,
+				A21015 /* ArtistListView.swift in Sources */,
+				A21016 /* PlaylistListView.swift in Sources */,
+				A21017 /* NowPlayingBar.swift in Sources */,
+				A21018 /* NowPlayingView.swift in Sources */,
+				A21019 /* BrowseView.swift in Sources */,
+				A21020 /* RadioView.swift in Sources */,
+				A21021 /* SearchView.swift in Sources */,
+				A21022 /* HomeView.swift in Sources */,
+				A21023 /* YouTubeAudioLibraryService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F21002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Sources/MusicApp/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MusicApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = ( "$(inherited)", "@executable_path/../Frameworks", );
+			};
+			name = Debug;
+		};
+		F21002a /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Sources/MusicApp/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MusicApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = ( "$(inherited)", "@executable_path/../Frameworks", );
+			};
+			name = Release;
+		};
+		F21004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ( "DEBUG=1", "$(inherited)", );
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F21004a /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F21001 /* Build config list for project */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = ( F21004 /* Debug */, F21004a /* Release */, );
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F21003 /* Build config list for MusicApp */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = ( F21002 /* Debug */, F21002a /* Release */, );
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = G21001 /* Project object */;
+}
