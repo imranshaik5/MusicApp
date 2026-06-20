@@ -53,4 +53,3 @@ swift run
 ## Credits
 
 - Audio library data from [YouTube-Free-Audio-Library-API](https://github.com/ThibaultJanBeyer/YouTube-Free-Audio-Library-API)
-- Queue management patterns inspired by [kaset](https://github.com/sozercan/kaset)
